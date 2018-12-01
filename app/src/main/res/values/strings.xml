@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CleanWorld</string>
+    <string name="why">
+        KODĖL VERTA RŪŠIUOTI
+    </string>
+    <string name="why_intro">
+    Rūšiuoti atliekas verta, dėl kelių labai svarbių priežasčių:
+    </string>
+    <string name="why1">
+     - rūšiavimas sumažins aplinkos taršą;
+    </string>
+    <string name="why2">
+     - sumažins poreikį naujų iškastinių išteklių naudojimui;
+    </string>
+    <string name="why3">
+     - prisidės prie gerovės užtiktrinimo ateities kartoms.
+    </string>
+    <string name="why4">
+        Lietuvoje vieno žmogaus sunaudojamų pakuočių kiekis per metus sudaro apie 50kg. O jeigu šeimą sudaro daugiau, neivienas asmuo - atliekų kiekis gali sudaryti net kelis šimtus kilogramų. Nepamirškite, kad kai kurioms atliekoms iširti reikia šimtų metų! Tad nesunku suprasti, kad rūšiuoti būtina, jeigu norime negyventi šiukšlėse.
+    </string>
 </resources>

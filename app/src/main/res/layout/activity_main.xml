@@ -71,7 +71,7 @@ tools:context=".MainActivity">
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorinfo"
-            android:onClick="info()"
+            android:onClick="info"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/info_96" />
     </LinearLayout>
@@ -121,6 +121,7 @@ tools:context=".MainActivity">
             android:text="Informacija"
             android:textColor="@android:color/white"
             android:textSize="18sp"
+            android:onClick="info"
             android:textStyle="bold" />
     </LinearLayout>
 
