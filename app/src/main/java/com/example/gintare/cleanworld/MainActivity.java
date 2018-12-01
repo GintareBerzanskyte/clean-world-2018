@@ -8,7 +8,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button info;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,5 +18,13 @@ public class MainActivity extends AppCompatActivity {
     public void info(View view) {
         Intent info = new Intent(MainActivity.this, info.class);
         startActivity(info);
+    }
+    public void diy(View view) {
+        Intent diy = new Intent(MainActivity.this, DIYActivity.class);
+        startActivity(diy);
+    }
+    public void my_trash(View view) {
+        Intent my_trash = new Intent(MainActivity.this, info.class);
+        startActivity(my_trash);
     }
 }

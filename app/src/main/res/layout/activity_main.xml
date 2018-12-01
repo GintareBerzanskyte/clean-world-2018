@@ -54,6 +54,7 @@ tools:context=".MainActivity">
             android:layout_weight="1"
             android:background="@color/colorRecycle"
             android:scaleType="fitCenter"
+            android:onClick="my_trash"
             app:srcCompat="@drawable/recycling_96" />
 
         <ImageButton
@@ -63,6 +64,7 @@ tools:context=".MainActivity">
             android:layout_weight="1"
             android:background="@color/colordiy"
             android:scaleType="fitCenter"
+            android:onClick="diy"
             app:srcCompat="@drawable/diy_96" />
 
         <ImageButton
@@ -97,6 +99,7 @@ tools:context=".MainActivity">
             android:text="Mano rūšiavimas"
             android:textColor="@android:color/white"
             android:textSize="18sp"
+            android:onClick="my_trash"
             android:textStyle="bold" />
 
         <TextView
@@ -109,6 +112,7 @@ tools:context=".MainActivity">
             android:text="DIY"
             android:textColor="@android:color/white"
             android:textSize="18sp"
+            android:onClick="diy"
             android:textStyle="bold" />
 
         <TextView
