@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void info(View view) {
+    public void map(View view) {
         Intent info = new Intent(MainActivity.this, MapsActivity.class);
         startActivity(info);
     }
@@ -57,8 +57,12 @@ public class MainActivity extends AppCompatActivity {
         Intent diy = new Intent(MainActivity.this, DIYActivity.class);
         startActivity(diy);
     }
-    public void my_trash(View view) {
+    public void info(View view) {
         Intent my_trash = new Intent(MainActivity.this, info.class);
+        startActivity(my_trash);
+    }
+    public void mytrash(View view) {
+        Intent my_trash = new Intent(MainActivity.this, MyTrashActivity.class);
         startActivity(my_trash);
     }
 }
