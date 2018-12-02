@@ -65,4 +65,8 @@ public class MainActivity extends AppCompatActivity {
         Intent my_trash = new Intent(MainActivity.this, MyTrashActivity.class);
         startActivity(my_trash);
     }
+    public void search(View view) {
+        Intent my_trash = new Intent(MainActivity.this, TrashActivity.class);
+        startActivity(my_trash);
+    }
 }
