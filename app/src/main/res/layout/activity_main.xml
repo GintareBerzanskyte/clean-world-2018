@@ -17,7 +17,7 @@ tools:context=".MainActivity">
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 
-<EditText
+<AutoCompleteTextView
     android:id="@+id/editText2"
     android:layout_width="0dp"
     android:layout_height="48dp"
@@ -28,12 +28,22 @@ tools:context=".MainActivity">
     android:layout_marginTop="16dp"
     android:background="@drawable/roundborder"
     android:ems="10"
-    android:hint="Ką norėsite išmesti ?"
+    android:hint="Ką norėsite išmesti?"
+    android:completionThreshold="1"
     android:inputType="textPersonName"
     android:paddingLeft="16dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_countries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

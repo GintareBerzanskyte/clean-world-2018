@@ -7,16 +7,40 @@
     android:background="@android:color/background_light"
     tools:context=".DIYActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp">
+        android:layout_height="match_parent">
 
-        <WebView
-            android:id="@+id/web1"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp" />
-    </LinearLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/web3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <WebView
+                android:id="@+id/web1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <WebView
+                android:id="@+id/web4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <WebView
+                android:id="@+id/web5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <WebView
+                android:id="@+id/web2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
